@@ -190,3 +190,27 @@ padding:8px 15px;
 }
 
 }
+
+
+/* FLOATING WHATSAPP */
+.floating-whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+color:white;
+font-size:28px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+z-index:1000;
+}
+
+.floating-whatsapp:hover{
+transform:scale(1.1);
+}
